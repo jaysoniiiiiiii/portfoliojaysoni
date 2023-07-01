@@ -25,7 +25,7 @@ section
 .banner h2
 {
 	font-size: 3em;
-	color: #fff;
+	color: #000000;
 	font-weight: 500;
 	line-height: 1.5em;
 }
@@ -37,7 +37,7 @@ section
 .banner h3
 {
 	font-size: 1.5em;
-	color: #fff;
+	color: #000000;
 	font-weight: 500;
 }
 .btn
@@ -60,6 +60,7 @@ section
 }
 header
 {
+	background: #000;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -407,18 +408,23 @@ img
 	{
 		width: 40px;
 		height: 40px;
-		background: url(menu.png);
+		background: url(289332-200.png);
+		background-color: #ffffff;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 30px;
+		/* background-image: url(computer-icons-hamburger-button-icon-design-web-typography-png-favpng-WCdfkJA1mmcy54pnSwS9bffjG.jpg); */
 		cursor: pointer;
 	}
 	.toggle.active
 	{
-		background: url(close.png);
+		background: url(download.png);
+		background-color: #fff;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 25px;
+		z-index: -1;
+		/* background-color: white; */
 		cursor: pointer;
 	}
 	header.sticky .toggle
@@ -435,6 +441,7 @@ img
 	}
 	.banner h2
 	{
+		
 		font-size: 1.5em;
 	}
 	.banner h3
